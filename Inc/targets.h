@@ -310,7 +310,7 @@
 
 #ifdef KINGMODEL_L431_CAN
 #define DRONECAN_NODE_NAME "KINGMODEL_ESC_CAN"
-#define FIRMWARE_NAME "KINGMODEL_ESC_CAN"
+#define FIRMWARE_NAME "KM_ESC_CAN"
 #define FILE_NAME "KINGMODEL_L431_CAN"
 #define DRONECAN_SUPPORT 1
 #define DEAD_TIME 80
@@ -1072,7 +1072,7 @@
 /***************************************End Generic
  * *****************************************/
 #ifdef KINGMODEL_F421
-#define FIRMWARE_NAME "KINGMODEL F4"
+#define FIRMWARE_NAME "KM_F421"
 #define FILE_NAME "KINGMODEL_F421"
 #define DEAD_TIME 100
 #define HARDWARE_GROUP_AT_C
@@ -1081,7 +1081,7 @@
 #endif
 
 #ifdef  KINGMODEL_4IN1_F421
-#define FIRMWARE_NAME "KINGMODEL_4IN1"
+#define FIRMWARE_NAME "KM_4IN1_F421"
 #define FILE_NAME "KINGMODEL_4IN1_F421"
 #define DEAD_TIME 100
 #define HARDWARE_GROUP_AT_B
@@ -1096,7 +1096,7 @@
 #endif
 
 #ifdef KINGMODEL_12S_F421
-#define FIRMWARE_NAME "KINGMODEL 12S"
+#define FIRMWARE_NAME "KM_12S_F421"
 #define FILE_NAME "KINGMODEL_12S_F421"
 #define DEAD_TIME 100
 #define HARDWARE_GROUP_AT_C
@@ -2461,8 +2461,8 @@
 /*******************************   G071 Targets
  * *********************************/
 #ifdef KINGMODEL_G071
+#define FIRMWARE_NAME "KM_G071"
 #define FILE_NAME "KINGMODEL_G071"
-#define FIRMWARE_NAME "KINGMODEL_G071"
 #define DEAD_TIME 80
 #define MILLIVOLT_PER_AMP 20
 #define CURRENT_OFFSET 0
